@@ -1,0 +1,120 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+A.
+Data structure provides efficiency, reusability and abstraction.
+
+What are the various operations that can be performed on different Data Structures?
+Insertion: Add a new data item in the given collection of data items.
+Deletion: Delete an existing data item from the given collection of data items.
+Traversal: Access each data item exactly once so that it can be processed.
+Searching: Find out the location of the data item if it exists in the given collection of data items.
+Sorting: Arranging the data items in some order i.e. in ascending or descending order in case of numerical data and in dictionary order in case of alphanumeric data.
+
+List out the areas in which data structures are applied extensively?
+ numerical analysis, operating system, A.I., compiler design, database management, graphics, and statistical analysis,
+
+what is an Array?
+An array is a container object that holds a fixed number of values of a single type.
+
+what is the difference between the Array and ArrayList?
+An array is a fixed-length data structure. ArrayList is a variable-length data structure.
+
+what is LinkedList?
+a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
+
+How is an Array different from Linked List?
+Array elements can be accessed randomly using the array index. Random accessing is not possible in linked lists.
+
+what is queue?
+The Queue interface present in the java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order.
+
+what is stack?
+A stack is an abstract data type that holds an ordered, linear sequence of items. In contrast to a queue, a stack is a last in, first out (LIFO) structure.
+
+what is FIFO and LIFO?
+The Last-In, First-Out (LIFO) method assumes that the last unit to arrive in inventory or more recent is sold first. The First-In, First-Out (FIFO) method assumes that the oldest unit of inventory is the sold first.
+
+what is the order of complexity?
+The most common complexity classes are (in ascending order of complexity): O(1), O(log n), O(n), O(n log n), O(n²).
+
+what is the best case to search an element from an array?
+Sequential search
+
+what is the worst case to search an element from an array?
+Binary Search Performance
+
+what is tree in data structure?
+A tree is a hierarchical data structure defined as a collection of nodes
+
+what is graph in data structure?
+A Graph is a non-linear data structure consisting of nodes and edges
+
+what is the difference between the HashTable and HashMap?
+HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value. HashMap is generally preferred over HashTable if thread synchronization is not needed.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS = Array (i.e. Array of structures)
+Network data model = Graph
+Hierarchical data model = Trees
+
+How HashMap works in java?
+HashMap uses multiple buckets and each bucket points to a Singly Linked List where the entries (nodes) are stored
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, that is backed by an array with an invalid index. This means that the index is either less than zero or greater than or equal to the size of the array.
+
+What are the different ways of copying an array into another array?
+You can use a for loop and copy elements of one to another one by one.
+Use the clone method to clone an array.
+Use arraycopy() method of System class.
+Use copyOf() or copyOfRange() methods of Arrays class.
+
+What is difference between an array and a linked list?
+An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers. Array elements can be accessed randomly using the array index. Random accessing is not possible in linked lists.
+
+What is DFS and BFS?
+BFS stands for Breadth First Search. DFS stands for Depth First Search. 2. BFS(Breadth First Search) uses Queue data structure for finding the shortest path. DFS(Depth First Search) uses Stack data structure.
+
+What is Recursion?
+n Java, a method that calls itself is known as a recursive method. And, this process is known as recursion.
+
+What are linear and non linear data Structures?
+In a linear data structure, data elements are arranged in a linear order where each and every element is attached to its previous and next adjacent. In a non-linear data structure, data elements are attached in hierarchically manner
+
+What is Big-(O)-notation?
+Big O notation (with a capital letter O, not a zero), also called Landau's symbol, is a symbolism used in complexity theory, computer science, and mathematics to describe the asymptotic behavior of functions. Basically, it tells you how fast a function grows or declines.
+
+Outlined different kind of sorting algorithm with time complexity?
+Selection Sort  Bubble Sort  Insertion Sort  Heap Sort  Quick Sort  Merge Sort  Bucket Sort  Radix Sort Count Sort
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+
+Data structure	Access	Search	Insertion	Deletion
+Array	O(1)	O(N)	O(N)	O(N)
+Stack	O(N)	O(N)	O(1)	O(1)
+Queue	O(N)	O(N)	O(1)	O(1)
+Singly Linked list	O(N)	O(N)	O(1)	O(1)
+Doubly Linked List	O(N)	O(N)	O(1)	O(1)
+Hash Table	O(1)	O(1)	O(1)	O(1)
+Binary Search Tree	O(log N)	O(log N)	O(log N)	O(log N)
+AVL Tree	O(log N)	O(log N)	O(log N)	O(log N)
+B Tree	O(log N)	O(log N)	O(log N)	O(log N)
+Red Black Tree	O(log N)	O(log N)	O(log N)	O(log N)
+Worst Case time complexity of different data structures for different operations
+Data structure	Access	Search	Insertion	Deletion
+Array	O(1)	O(N)	O(N)	O(N)
+Stack	O(N)	O(N)	O(1)	O(1)
+Queue	O(N)	O(N)	O(1)	O(1)
+Singly Linked list	O(N)	O(N)	O(1)	O(1)
+Doubly Linked List	O(N)	O(N)	O(1)	O(1)
+Hash Table	O(N)	O(N)	O(N)	O(N)
+Binary Search Tree	O(N)	O(N)	O(N)	O(N)
+AVL Tree	O(log N)	O(log N)	O(log N)	O(log N)
+Binary Tree	O(N)	O(N)	O(N)	O(N)
+Red Black Tree	O(log N)	O(log N)	O(log N)	O(log N)
+
