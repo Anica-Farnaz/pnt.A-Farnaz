@@ -182,7 +182,7 @@ public class ConnectToSqlDB {
     }
 
     public static void main(String[] args) throws Exception {
-//        List<User> list = readUserProfileFromSqlTable();
+        //        List<User> list = readUserProfileFromSqlTable();
 //        for(User user:list){
 //            System.out.println(user.getStName() + " " + user.getStID()+ " " + user.getStDOB());
 //        }
