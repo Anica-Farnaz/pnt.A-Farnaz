@@ -20,6 +20,7 @@ public class UseMap {
 		System.out.println(map.get(3));
 		for (Map.Entry entry : map.entrySet()) {
 			System.out.println(entry.getKey() + " " + entry.getValue());
+
 		}
 	}
 }
